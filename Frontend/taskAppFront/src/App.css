@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.taskform{
+    display: flex;
+    height: 50px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.taskcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 0;
+    height: 90vh;
+    padding: 50px 200px;
+    overflow-y: scroll;
+    background-color: rgb(41, 41, 41);
+}
+
+.taskrow{
+    display: flex;
+    width: 80vw;
+    border: rgb(212, 212, 212) solid 1px;
+    padding: 10px;
+    color: rgb(209, 209, 209);
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: rgb(177, 226, 64);
+}
